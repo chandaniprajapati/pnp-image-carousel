@@ -1,0 +1,26 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.pnpImageCarousel {
+    .carouselContent {
+      height: 500px !important;
+    }
+
+    div[class^="details"] {
+      top: 80% !important;
+
+      span {
+        font-size: 15px !important;
+      }
+
+      span[class^="title"] {
+        font-size: 20px !important;
+      }
+    }
+    
+    .carouselButtonsContainer button {
+      min-width: 32px !important;
+    }
+  }
+
+  
+
